@@ -37,14 +37,43 @@ $this->set([
 		<?php endif ?>
 		<div class="grid-row">
 			<div class="grid-column-left">
+				<?= $this->media->field('portrait_media_id', [
+					'label' => $t('Portrait'),
+					'attachment' => 'direct',
+					'value' => $item->portrait()
+				]) ?>
+			</div>
+			<div class="grid-column-right">
+				<?= $this->media->field('media', [
+					'label' => $t('Media'),
+					'attachment' => 'joined',
+					'value' => $item->media()
+				]) ?>
+			</div>
+		</div>
+		<div class="grid-row">
+			<div class="grid-column-left">
 				<?= $this->form->field('name', [
 					'type' => 'text',
 					'label' => $t('Name'),
 				]) ?>
-				<?= $this->form->field('position', [
-					'type' => 'text',
-					'label' => $t('Position')
-				]) ?>
+
+				<?php if ($isTranslated): ?>
+					<?php foreach ($item->translate('position') as $locale => $value): ?>
+						<?= $this->form->field("i18n.position.{$locale}", [
+							'label' => $t('Position') . ' (' . $this->g11n->name($locale) . ')',
+							'type' => 'text',
+							'value' => $value
+
+						]) ?>
+					<?php endforeach ?>
+				<?php else: ?>
+					<?= $this->form->field('position', [
+						'label' => $t('Position'),
+						'type' => 'text'
+					]) ?>
+				<?php endif ?>
+			
 				<?= $this->form->field('phone', [
 					'type' => 'text',
 					'label' => $t('Phone')
@@ -58,22 +87,12 @@ $this->set([
 					'label' => $t('Fax')
 				]) ?>
 			</div>
-			<div class="grid-column-right"></div>
-		</div>
-		<div class="grid-row">
-			<div class="grid-column-left">
-				<?= $this->media->field('portrait_media_id', [
-					'label' => $t('Portrait'),
-					'attachment' => 'direct',
-					'value' => $item->portrait()
-				]) ?>
-			</div>
 			<div class="grid-column-right">
-				<?= $this->media->field('media', [
-					'label' => $t('Media'),
-					'attachment' => 'joined',
-					'value' => $item->media()
-				]) ?>
+				<?= $this->form->field('urls', ['type' => 'textarea', 'value' => $item->urls(), 'label' => $t('Social Links')]) ?>
+				<div class="help">
+					<?= $t('Specify Links as URLs with leading protocol (i.e. `http://example.com`).') ?>
+					<?= $t('Separate multiple links with newlines so that each one has its own line.') ?>
+				</div>
 			</div>
 		</div>
 		<div class="grid-row">
