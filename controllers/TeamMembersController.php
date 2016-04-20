@@ -30,15 +30,6 @@ class TeamMembersController extends \base_core\controllers\BaseController {
 
 	use \base_core\controllers\AdminOrderTrait; // im cms die Möglichkeit beitrage per drag and drop zu verschieben
 	use \base_core\controllers\AdminPublishTrait; // im cms die Möglichkeit auf einen Publish button zu drücken > benötigt Datenbank feld 'published'
-
-	protected function _selects($item = null) {
-		$regions = TeamMembers::find('all', [
-			'fields' => ['DISTINCT region as region']
-		]);
-		$regions = Set::extract($regions->data(), '/region');
-
-		return compact('regions');
-	}
 }
 
 ?>

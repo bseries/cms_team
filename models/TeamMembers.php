@@ -26,9 +26,9 @@ class TeamMembers extends \base_core\models\Base {
 			'to' => 'base_core\models\Users',
 			'key' => 'owner_id'
 		],
-		'CoverMedia' => [
+		'PortraitMedia' => [
 			'to' => 'base_media\models\Media',
-			'key' => 'cover_media_id'
+			'key' => 'portrait_media_id'
 		]
 	];
 
@@ -39,6 +39,10 @@ class TeamMembers extends \base_core\models\Base {
 				'portrait' => [
 					'type' => 'direct',
 					'to' => 'portrait_media_id'
+				],
+				'media' => [
+					'type' => 'joined',
+					'to' => 'base_media\models\MediaAttachments'
 				]
 			]
 		],
@@ -50,8 +54,8 @@ class TeamMembers extends \base_core\models\Base {
 		'base_core\extensions\data\behavior\Searchable' => [
 			'fields' => [
 				'Owner.name',
-				'title',
-				'category',
+				'name',
+				'position',
 				'modified'
 			]
 		]
@@ -61,24 +65,17 @@ class TeamMembers extends \base_core\models\Base {
 		extract(Message::aliases());
 		$model = static::_object();
 
-		$model->validates['portrait_media_id'] = [
+		/*$model->validates['portrait_media_id'] = [
 			[
 				'notEmpty',
 				'on' => ['create', 'update'],
 				'message' => $t('You must select on medium.', ['scope' => 'cms_team'])
 			]
-		];
-		$model->validates['region'] = [
-			[
-				'notEmpty',
-				'on' => ['create', 'update'],
-				'message' => $t('Need a region.', ['scope' => 'cms_team'])
-			]
-		];
+		];*/
 
 		if (PROJECT_LOCALE !== PROJECT_LOCALES) {
 			static::bindBehavior('li3_translate\extensions\data\behavior\Translatable', [
-				'fields' => ['title', 'body'],
+				'fields' => ['vita'],
 				'locale' => PROJECT_LOCALE,
 				'locales' => explode(' ', PROJECT_LOCALES),
 				'strategy' => 'inline'
@@ -86,6 +83,4 @@ class TeamMembers extends \base_core\models\Base {
 		}
 	}
 }
-
-Team::init();
-?>
+TeamMembers::init(); ?>
