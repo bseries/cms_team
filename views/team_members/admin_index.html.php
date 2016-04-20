@@ -16,7 +16,7 @@ $this->set([
 
 ?>
 <article>
-	
+
 	<div class="top-actions">
 		<?= $this->html->link($t('team member'), ['action' => 'add'], ['class' => 'button add']) ?>
 	</div>
@@ -50,7 +50,7 @@ $this->set([
 			</thead>
 			<tbody class="use-manual-sorting">
 				<?php foreach ($data as $item): ?>
-				<tr>
+				<tr data-id="<?= $item->id ?>">
 					<td class="flag"><i class="material-icons"><?= ($item->is_published ? 'done' : '') ?></i>
 					<td class="media">
 						<?php if ($portrait = $item->portrait()): ?>
