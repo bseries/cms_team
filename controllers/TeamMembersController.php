@@ -22,7 +22,7 @@ use cms_team\models\TeamMembers;
 
 class TeamMembersController extends \base_core\controllers\BaseController {
 
-	use \base_core\controllers\AdminIndexOrderedTrait; // was war das nochmal? sortierbar machen?
+	use \base_core\controllers\AdminIndexOrderedTrait; // für Drag and Drop 
 
 	use \base_core\controllers\AdminAddTrait; // Im cms die Möglichkeit in Form eines Buttons einen Beitrag dieses Moduls hinzuzufügen 
 	use \base_core\controllers\AdminEditTrait; // im cms button um einen beitrag zu editieren
