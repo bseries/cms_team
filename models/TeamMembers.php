@@ -34,6 +34,7 @@ class TeamMembers extends \base_core\models\Base {
 
 	protected $_actsAs = [
 		'base_core\extensions\data\behavior\Ownable',
+		'base_core\extensions\data\behavior\Sluggable',
 		'base_media\extensions\data\behavior\Coupler' => [
 			'bindings' => [
 				'portrait' => [
@@ -47,6 +48,11 @@ class TeamMembers extends \base_core\models\Base {
 			]
 		],
 		'base_core\extensions\data\behavior\Timestamp',
+		'base_core\extensions\data\behavior\Serializable' => [
+			'fields' => [
+				'urls' => "\n"
+			]
+		],
 		'base_core\extensions\data\behavior\Sortable' => [
 			'field' => 'order',
 			'cluster' => []
@@ -65,17 +71,9 @@ class TeamMembers extends \base_core\models\Base {
 		extract(Message::aliases());
 		$model = static::_object();
 
-		/*$model->validates['portrait_media_id'] = [
-			[
-				'notEmpty',
-				'on' => ['create', 'update'],
-				'message' => $t('You must select on medium.', ['scope' => 'cms_team'])
-			]
-		];*/
-
 		if (PROJECT_LOCALE !== PROJECT_LOCALES) {
 			static::bindBehavior('li3_translate\extensions\data\behavior\Translatable', [
-				'fields' => ['vita'],
+				'fields' => ['vita', 'position'],
 				'locale' => PROJECT_LOCALE,
 				'locales' => explode(' ', PROJECT_LOCALES),
 				'strategy' => 'inline'
