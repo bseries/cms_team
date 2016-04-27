@@ -11,6 +11,7 @@ CREATE TABLE `team_members` (
 	  `email` varchar(50) DEFAULT NULL,
 	  `fax` varchar(50) DEFAULT NULL,
 	  `is_published` tinyint(1) DEFAULT NULL,
+	  `urls` varchar(250) DEFAULT NULL,
 	  `created` datetime NOT NULL,
 	  `modified` datetime NOT NULL,
 	  PRIMARY KEY (`id`)
