@@ -1,0 +1,147 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Atelier Disko
+# This file is distributed under the same license as the cms_team package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: cms_team 1.0\n"
+"Report-Msgid-Bugs-To: info@atelierdisko.de\n"
+"POT-Creation-Date: 2016-05-24 12:24+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: config/panes.php:26 views/team_members/admin_index.html.php:13
+msgid "Team Members"
+msgstr ""
+
+#: views/team_members/admin_form.html.php:13
+msgid "untitled"
+msgstr ""
+
+#: views/team_members/admin_form.html.php:14
+msgid "Team Member"
+msgstr ""
+
+#: views/team_members/admin_form.html.php:17
+msgid "published"
+msgstr ""
+
+#: views/team_members/admin_form.html.php:17
+msgid "unpublished"
+msgstr ""
+
+#: views/team_members/admin_form.html.php:26
+msgid "Access"
+msgstr ""
+
+#: views/team_members/admin_form.html.php:32
+#: views/team_members/admin_index.html.php:37
+msgid "Owner"
+msgstr ""
+
+#: views/team_members/admin_form.html.php:41
+msgid "Portrait"
+msgstr ""
+
+#: views/team_members/admin_form.html.php:48
+msgid "Media"
+msgstr ""
+
+#: views/team_members/admin_form.html.php:58
+#: views/team_members/admin_index.html.php:33
+msgid "Name"
+msgstr ""
+
+#: views/team_members/admin_form.html.php:64
+#: views/team_members/admin_form.html.php:72
+#: views/team_members/admin_index.html.php:34
+msgid "Position"
+msgstr ""
+
+#: views/team_members/admin_form.html.php:79
+msgid "Phone"
+msgstr ""
+
+#: views/team_members/admin_form.html.php:83
+msgid "Email"
+msgstr ""
+
+#: views/team_members/admin_form.html.php:87
+msgid "Fax"
+msgstr ""
+
+#: views/team_members/admin_form.html.php:91
+msgid "Social Links"
+msgstr ""
+
+#: views/team_members/admin_form.html.php:93
+msgid ""
+"Specify Links as URLs with leading protocol (i.e. `http://example.com`)."
+msgstr ""
+
+#: views/team_members/admin_form.html.php:94
+msgid ""
+"Separate multiple links with newlines so that each one has its own line."
+msgstr ""
+
+#: views/team_members/admin_form.html.php:102
+#: views/team_members/admin_form.html.php:110
+msgid "Vita"
+msgstr ""
+
+#: views/team_members/admin_form.html.php:120
+msgid "delete"
+msgstr ""
+
+#: views/team_members/admin_form.html.php:127
+#: views/team_members/admin_index.html.php:76
+msgid "publish"
+msgstr ""
+
+#: views/team_members/admin_form.html.php:127
+#: views/team_members/admin_index.html.php:76
+msgid "unpublish"
+msgstr ""
+
+#: views/team_members/admin_form.html.php:129
+msgid "save"
+msgstr ""
+
+#: views/team_members/admin_index.html.php:21
+msgid "team member"
+msgstr ""
+
+#: views/team_members/admin_index.html.php:28
+msgid "publ.?"
+msgstr ""
+
+#: views/team_members/admin_index.html.php:30
+msgid "prom.?"
+msgstr ""
+
+#: views/team_members/admin_index.html.php:35
+msgid "Modified"
+msgstr ""
+
+#: views/team_members/admin_index.html.php:40
+msgid "Site"
+msgstr ""
+
+#: views/team_members/admin_index.html.php:46
+msgid "Filter"
+msgstr ""
+
+#: views/team_members/admin_index.html.php:77
+msgid "open"
+msgstr ""
+
+#: views/team_members/admin_index.html.php:82
+msgid "No team members added, yet."
+msgstr ""

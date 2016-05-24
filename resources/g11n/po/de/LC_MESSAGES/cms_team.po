@@ -1,0 +1,146 @@
+# German translations for cms_team package.
+# Copyright (C) 2016 Atelier Disko
+# This file is distributed under the same license as the cms_team package.
+# Automatically generated, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cms_team 1.0\n"
+"Report-Msgid-Bugs-To: info@atelierdisko.de\n"
+"POT-Creation-Date: 2016-05-24 12:24+0200\n"
+"PO-Revision-Date: 2016-05-24 12:29+0200\n"
+"Last-Translator: David Persson <davidpersson@gmx.de>\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.7\n"
+
+#: config/panes.php:26 views/team_members/admin_index.html.php:13
+msgid "Team Members"
+msgstr "Teammitglieder"
+
+#: views/team_members/admin_form.html.php:13
+msgid "untitled"
+msgstr "Ohne Titel"
+
+#: views/team_members/admin_form.html.php:14
+msgid "Team Member"
+msgstr "Teammitglied"
+
+#: views/team_members/admin_form.html.php:17
+msgid "published"
+msgstr "publiziert"
+
+#: views/team_members/admin_form.html.php:17
+msgid "unpublished"
+msgstr "unpublziert"
+
+#: views/team_members/admin_form.html.php:26
+msgid "Access"
+msgstr "Zugriff"
+
+#: views/team_members/admin_form.html.php:32
+#: views/team_members/admin_index.html.php:37
+msgid "Owner"
+msgstr "Besitzer"
+
+#: views/team_members/admin_form.html.php:41
+msgid "Portrait"
+msgstr "Porträt"
+
+#: views/team_members/admin_form.html.php:48
+msgid "Media"
+msgstr "Medien"
+
+#: views/team_members/admin_form.html.php:58
+#: views/team_members/admin_index.html.php:33
+msgid "Name"
+msgstr "Name"
+
+#: views/team_members/admin_form.html.php:64
+#: views/team_members/admin_form.html.php:72
+#: views/team_members/admin_index.html.php:34
+msgid "Position"
+msgstr "Position"
+
+#: views/team_members/admin_form.html.php:79
+msgid "Phone"
+msgstr "Telefon"
+
+#: views/team_members/admin_form.html.php:83
+msgid "Email"
+msgstr "E-Mail"
+
+#: views/team_members/admin_form.html.php:87
+msgid "Fax"
+msgstr "Fax"
+
+#: views/team_members/admin_form.html.php:91
+msgid "Social Links"
+msgstr "Social-Links"
+
+#: views/team_members/admin_form.html.php:93
+msgid "Specify Links as URLs with leading protocol (i.e. `http://example.com`)."
+msgstr "Links müssen mit führenden Protokoll angegeben werden (z.B. `http://example.de`)."
+
+#: views/team_members/admin_form.html.php:94
+msgid "Separate multiple links with newlines so that each one has its own line."
+msgstr "Für mehrere Links, nutzen geben Sie einen Link pro Zeile an."
+
+#: views/team_members/admin_form.html.php:102
+#: views/team_members/admin_form.html.php:110
+msgid "Vita"
+msgstr "Vita"
+
+#: views/team_members/admin_form.html.php:120
+msgid "delete"
+msgstr "löschen"
+
+#: views/team_members/admin_form.html.php:127
+#: views/team_members/admin_index.html.php:76
+msgid "publish"
+msgstr "publizieren"
+
+#: views/team_members/admin_form.html.php:127
+#: views/team_members/admin_index.html.php:76
+msgid "unpublish"
+msgstr "depublizieren"
+
+#: views/team_members/admin_form.html.php:129
+msgid "save"
+msgstr "speichern"
+
+#: views/team_members/admin_index.html.php:21
+msgid "team member"
+msgstr "Teammitglied"
+
+#: views/team_members/admin_index.html.php:28
+msgid "publ.?"
+msgstr "publ.?"
+
+#: views/team_members/admin_index.html.php:30
+msgid "prom.?"
+msgstr "prom.?"
+
+#: views/team_members/admin_index.html.php:35
+msgid "Modified"
+msgstr "Bearbeitet"
+
+#: views/team_members/admin_index.html.php:40
+msgid "Site"
+msgstr "Site"
+
+#: views/team_members/admin_index.html.php:46
+msgid "Filter"
+msgstr "Filter"
+
+#: views/team_members/admin_index.html.php:77
+msgid "open"
+msgstr "öffnen"
+
+#: views/team_members/admin_index.html.php:82
+msgid "No team members added, yet."
+msgstr "Noch keine Teammitglieder verfügbar."
