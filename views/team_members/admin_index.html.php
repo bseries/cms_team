@@ -66,7 +66,7 @@ $this->set([
 						</time>
 					<?php if ($useOwner): ?>
 						<td class="user">
-							<?= $item->owner()->name ?>
+							<?= $this->user->link($item->owner()) ?>
 					<?php endif ?>
 					<?php if ($useSites): ?>
 						<td>
