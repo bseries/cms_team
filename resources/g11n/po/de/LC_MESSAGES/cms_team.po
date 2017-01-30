@@ -45,7 +45,7 @@ msgstr "Zugriff"
 #: views/team_members/admin_form.html.php:32
 #: views/team_members/admin_index.html.php:37
 msgid "Owner"
-msgstr "Besitzer"
+msgstr "Eigentümer"
 
 #: views/team_members/admin_form.html.php:41
 msgid "Portrait"
