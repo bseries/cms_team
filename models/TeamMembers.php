@@ -60,6 +60,7 @@ class TeamMembers extends \base_core\models\Base {
 		'base_core\extensions\data\behavior\Searchable' => [
 			'fields' => [
 				'Owner.name',
+				'Owner.number',
 				'name',
 				'position',
 				'modified'
@@ -81,4 +82,7 @@ class TeamMembers extends \base_core\models\Base {
 		}
 	}
 }
-TeamMembers::init(); ?>
+
+TeamMembers::init();
+
+?>
