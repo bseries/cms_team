@@ -24,7 +24,7 @@ msgstr "Teammitglieder"
 
 #: views/team_members/admin_form.html.php:13
 msgid "untitled"
-msgstr "Ohne Titel"
+msgstr "ohne Titel"
 
 #: views/team_members/admin_form.html.php:14
 msgid "Team Member"
