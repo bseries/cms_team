@@ -88,7 +88,11 @@ $this->set([
 				]) ?>
 			</div>
 			<div class="grid-column-right">
-				<?= $this->form->field('urls', ['type' => 'textarea', 'value' => $item->urls(), 'label' => $t('Social Links')]) ?>
+				<?= $this->form->field('urls', [
+					'type' => 'textarea',
+					'label' => $t('Social Links'),
+					'value' => $item->urls()
+				]) ?>
 				<div class="help">
 					<?= $t('Specify Links as URLs with leading protocol (i.e. `http://example.com`).') ?>
 					<?= $t('Separate multiple links with newlines so that each one has its own line.') ?>
