@@ -1,9 +1,8 @@
 {
-    "name": "atelierdisko/cms_team",
+    "name": "bseries/cms_team",
     "description": "Team functionality for Bureau.",
-    "homepage": "https://atelierdisko.de",
     "type": "lithium-library",
-    "license": "proprietary",
+    "license": ["BSD-3-Clause"],
     "authors": [
       {
         "name": "Atelier Disko",
@@ -12,9 +11,9 @@
     ],
     "require": {
         "php": "^5.5 || ^7.0",
-        "atelierdisko/base_core": "1.5.*@dev",
-        "atelierdisko/base_media": "1.5.*@dev",
-        "atelierdisko/cms_core": "1.5.*@dev",
+        "bseries/base_core": "1.5.*@dev",
+        "bseries/base_media": "1.5.*@dev",
+        "bseries/cms_core": "1.5.*@dev",
         "unionofrad/lithium": "1.0.*@dev",
 		"davidpersson/li3_translate": "^2.1@dev",
         "composer/installers": "1.*@stable"
