@@ -3,12 +3,6 @@
     "description": "Team functionality for Bureau.",
     "type": "lithium-library",
     "license": ["BSD-3-Clause"],
-    "authors": [
-      {
-        "name": "Atelier Disko",
-        "homepage": "https://atelierdisko.de"
-      }
-    ],
     "require": {
         "php": "^5.5 || ^7.0",
         "bseries/base_core": "1.5.*@dev",
@@ -17,10 +11,5 @@
         "unionofrad/lithium": "1.0.*@dev",
 		"davidpersson/li3_translate": "^2.1@dev",
         "composer/installers": "1.*@stable"
-    },
-    "repositories": [
-      { "type": "vcs", "url": "git@code.disko.io:base_core" },
-      { "type": "vcs", "url": "git@code.disko.io:base_media" },
-      { "type": "vcs", "url": "git@code.disko.io:cms_core" }
-    ]
+    }
 }
