@@ -26,9 +26,6 @@ $this->set([
 			<thead>
 				<tr>
 					<td class="flag is-published"><?= $t('publ.?') ?>
-					<?php if (Settings::read('team.usePromotion')): ?>
-						<td class="flag is-promoted"><?= $t('prom.?') ?>
-					<?php endif ?>
 					<td class="media">
 					<td class="emphasize title"><?= $t('Name') ?>
 					<td class="emphasize title"><?= $t('Position') ?>
