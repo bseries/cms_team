@@ -19,4 +19,10 @@ Panes::register('cms.teamMembers', [
 	'weight' => 70
 ]);
 
+Panes::register('cms.vacantTeamPositions', [
+	'title' => $t('Vacant Team Positions', ['scope' => 'cms_team']),
+	'url' => ['controller' => 'vacantTeamPositions', 'action' => 'index', 'library' => 'cms_team', 'admin' => true],
+	'weight' => 71
+]);
+
 ?>
