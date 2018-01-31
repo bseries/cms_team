@@ -8,9 +8,6 @@
 
 namespace cms_team\controllers;
 
-use lithium\util\Set;
-use cms_team\models\TeamMembers;
-
 class TeamMembersController extends \base_core\controllers\BaseController {
 
 	use \base_core\controllers\AdminIndexOrderedTrait;
