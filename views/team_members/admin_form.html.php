@@ -114,7 +114,7 @@ $this->set([
 				<?= $this->editor->field('vita', [
 					'label' => $t('Vita'),
 					'size' => 'beta',
-					'features' => 'minimal'
+					'features' => 'full'
 				]) ?>
 			<?php endif ?>
 		</div>
