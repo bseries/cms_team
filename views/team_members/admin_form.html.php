@@ -10,7 +10,7 @@ $this->set([
 	'page' => [
 		'type' => 'single',
 		'title' => $item->name,
-		'empty' => $t('untitled'),
+		'empty' => $t('unnamed'),
 		'object' => $t('Team Member')
 	],
 	'meta' => [
@@ -56,6 +56,7 @@ $this->set([
 				<?= $this->form->field('name', [
 					'type' => 'text',
 					'label' => $t('Name'),
+					'class' => 'use-for-title'
 				]) ?>
 
 				<?php if ($isTranslated): ?>
