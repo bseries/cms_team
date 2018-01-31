@@ -53,9 +53,9 @@ $this->set([
 				<tr data-id="<?= $item->id ?>">
 					<td class="flag"><i class="material-icons"><?= ($item->is_published ? 'done' : '') ?></i>
 					<td class="media">
-						<?php if ($portrait = $item->portrait()): ?>
-							<?= $this->media->image($portrait->version('fix3admin'), [
-								'data-media-id' => $portrait->id, 'alt' => 'preview'
+						<?php if ($cover = $item->cover()): ?>
+							<?= $this->media->image($cover->version('fix3admin'), [
+								'data-media-id' => $cover->id, 'alt' => 'preview'
 							]) ?>
 						<?php endif ?>
 					<td class="emphasize title"><?= $item->name ?>

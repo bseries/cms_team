@@ -17,9 +17,9 @@ class TeamMembers extends \base_core\models\Base {
 			'to' => 'base_core\models\Users',
 			'key' => 'owner_id'
 		],
-		'PortraitMedia' => [
+		'CoverMedia' => [
 			'to' => 'base_media\models\Media',
-			'key' => 'portrait_media_id'
+			'key' => 'cover_media_id'
 		]
 	];
 
@@ -28,9 +28,9 @@ class TeamMembers extends \base_core\models\Base {
 		'base_core\extensions\data\behavior\Sluggable',
 		'base_media\extensions\data\behavior\Coupler' => [
 			'bindings' => [
-				'portrait' => [
+				'cover' => [
 					'type' => 'direct',
-					'to' => 'portrait_media_id'
+					'to' => 'cover_media_id'
 				],
 				'media' => [
 					'type' => 'joined',

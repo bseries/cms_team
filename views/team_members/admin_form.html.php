@@ -37,10 +37,10 @@ $this->set([
 		<?php endif ?>
 		<div class="grid-row">
 			<div class="grid-column-left">
-				<?= $this->media->field('portrait_media_id', [
-					'label' => $t('Portrait'),
+				<?= $this->media->field('cover_media_id', [
+					'label' => $t('Cover'),
 					'attachment' => 'direct',
-					'value' => $item->portrait()
+					'value' => $item->cover()
 				]) ?>
 			</div>
 			<div class="grid-column-right">
@@ -73,7 +73,7 @@ $this->set([
 						'type' => 'text'
 					]) ?>
 				<?php endif ?>
-			
+
 				<?= $this->form->field('phone', [
 					'type' => 'text',
 					'label' => $t('Phone')

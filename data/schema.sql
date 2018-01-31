@@ -5,7 +5,7 @@ CREATE TABLE `team_members` (
 	  `position` varchar(200) DEFAULT NULL,
 	  `name` varchar(250) DEFAULT NULL,
 	  `vita` text,
-	  `portrait_media_id` int(11) unsigned DEFAULT NULL,
+	  `cover_media_id` int(11) unsigned DEFAULT NULL,
 	  `phone` varchar(50) DEFAULT NULL,
 	  `email` varchar(50) DEFAULT NULL,
 	  `fax` varchar(50) DEFAULT NULL,
