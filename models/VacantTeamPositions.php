@@ -47,7 +47,7 @@ class VacantTeamPositions extends \base_core\models\Base {
 
 	public static function init() {
 		extract(Message::aliases());
-		$model = static::_object();
+		$model = static::object();
 
 		if (PROJECT_LOCALE !== PROJECT_LOCALES) {
 			static::bindBehavior('li3_translate\extensions\data\behavior\Translatable', [
