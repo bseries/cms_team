@@ -15,7 +15,7 @@ CREATE TABLE `team_members` (
   `created` datetime NOT NULL,
   `modified` datetime NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB;
 
 -- Create syntax for TABLE 'vacant_team_positions'
 CREATE TABLE `vacant_team_positions` (
@@ -31,4 +31,4 @@ CREATE TABLE `vacant_team_positions` (
   `created` datetime NOT NULL,
   `modified` datetime NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB;
