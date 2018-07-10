@@ -40,7 +40,8 @@ class VacantTeamPositions extends \base_core\models\Base {
 				'department',
 				'locations',
 				'position',
-				'modified'
+				'modified',
+				'site'
 			]
 		]
 	];

@@ -54,7 +54,8 @@ class TeamMembers extends \base_core\models\Base {
 				'Owner.number',
 				'name',
 				'position',
-				'modified'
+				'modified',
+				'site'
 			]
 		]
 	];
