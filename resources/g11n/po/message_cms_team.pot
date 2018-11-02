@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cms_team 1.0\n"
 "Report-Msgid-Bugs-To: info@atelierdisko.de\n"
-"POT-Creation-Date: 2018-04-25 17:17+0200\n"
+"POT-Creation-Date: 2018-07-12 12:51+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -55,77 +55,89 @@ msgstr ""
 msgid "Owner"
 msgstr ""
 
-#: views/team_members/admin_form.html.php:42
+#: views/team_members/admin_form.html.php:40
+#: views/vacant_team_positions/admin_form.html.php:40
+msgid "Sites"
+msgstr ""
+
+#: views/team_members/admin_form.html.php:46
+#: views/team_members/admin_index.html.php:37
+#: views/vacant_team_positions/admin_form.html.php:46
+#: views/vacant_team_positions/admin_index.html.php:37
+msgid "Site"
+msgstr ""
+
+#: views/team_members/admin_form.html.php:56
 #: views/team_members/admin_index.html.php:30
 msgid "Name"
 msgstr ""
 
-#: views/team_members/admin_form.html.php:49
-#: views/team_members/admin_form.html.php:57
+#: views/team_members/admin_form.html.php:63
+#: views/team_members/admin_form.html.php:71
 #: views/team_members/admin_index.html.php:31
 msgid "Position"
 msgstr ""
 
-#: views/team_members/admin_form.html.php:66
+#: views/team_members/admin_form.html.php:80
 msgid "Phone"
 msgstr ""
 
-#: views/team_members/admin_form.html.php:70
+#: views/team_members/admin_form.html.php:84
 msgid "Email"
 msgstr ""
 
-#: views/team_members/admin_form.html.php:74
+#: views/team_members/admin_form.html.php:88
 msgid "Fax"
 msgstr ""
 
-#: views/team_members/admin_form.html.php:78
+#: views/team_members/admin_form.html.php:92
 msgid "Social Links"
 msgstr ""
 
-#: views/team_members/admin_form.html.php:82
+#: views/team_members/admin_form.html.php:96
 msgid ""
 "Specify Links as URLs with leading protocol (i.e. `http://example.com`)."
 msgstr ""
 
-#: views/team_members/admin_form.html.php:83
+#: views/team_members/admin_form.html.php:97
 msgid ""
 "Separate multiple links with newlines so that each one has its own line."
 msgstr ""
 
-#: views/team_members/admin_form.html.php:90
+#: views/team_members/admin_form.html.php:104
 msgid "Cover"
 msgstr ""
 
-#: views/team_members/admin_form.html.php:97
+#: views/team_members/admin_form.html.php:111
 msgid "Media"
 msgstr ""
 
-#: views/team_members/admin_form.html.php:107
-#: views/team_members/admin_form.html.php:115
+#: views/team_members/admin_form.html.php:121
+#: views/team_members/admin_form.html.php:129
 msgid "Vita"
 msgstr ""
 
-#: views/team_members/admin_form.html.php:125
-#: views/vacant_team_positions/admin_form.html.php:115
+#: views/team_members/admin_form.html.php:139
+#: views/vacant_team_positions/admin_form.html.php:129
 msgid "delete"
 msgstr ""
 
-#: views/team_members/admin_form.html.php:132
-#: views/team_members/admin_index.html.php:66
-#: views/vacant_team_positions/admin_form.html.php:122
-#: views/vacant_team_positions/admin_index.html.php:61
+#: views/team_members/admin_form.html.php:146
+#: views/team_members/admin_index.html.php:73
+#: views/vacant_team_positions/admin_form.html.php:136
+#: views/vacant_team_positions/admin_index.html.php:68
 msgid "publish"
 msgstr ""
 
-#: views/team_members/admin_form.html.php:132
-#: views/team_members/admin_index.html.php:66
-#: views/vacant_team_positions/admin_form.html.php:122
-#: views/vacant_team_positions/admin_index.html.php:61
+#: views/team_members/admin_form.html.php:146
+#: views/team_members/admin_index.html.php:73
+#: views/vacant_team_positions/admin_form.html.php:136
+#: views/vacant_team_positions/admin_index.html.php:68
 msgid "unpublish"
 msgstr ""
 
-#: views/team_members/admin_form.html.php:134
-#: views/vacant_team_positions/admin_form.html.php:124
+#: views/team_members/admin_form.html.php:148
+#: views/vacant_team_positions/admin_form.html.php:138
 msgid "save"
 msgstr ""
 
@@ -143,17 +155,17 @@ msgstr ""
 msgid "Modified"
 msgstr ""
 
-#: views/team_members/admin_index.html.php:40
-#: views/vacant_team_positions/admin_index.html.php:40
+#: views/team_members/admin_index.html.php:43
+#: views/vacant_team_positions/admin_index.html.php:43
 msgid "Filter"
 msgstr ""
 
-#: views/team_members/admin_index.html.php:67
-#: views/vacant_team_positions/admin_index.html.php:62
+#: views/team_members/admin_index.html.php:74
+#: views/vacant_team_positions/admin_index.html.php:69
 msgid "open"
 msgstr ""
 
-#: views/team_members/admin_index.html.php:72
+#: views/team_members/admin_index.html.php:79
 msgid "No team members added, yet."
 msgstr ""
 
@@ -165,33 +177,33 @@ msgstr ""
 msgid "Vacant Team Position"
 msgstr ""
 
-#: views/vacant_team_positions/admin_form.html.php:44
-#: views/vacant_team_positions/admin_form.html.php:52
+#: views/vacant_team_positions/admin_form.html.php:58
+#: views/vacant_team_positions/admin_form.html.php:66
 #: views/vacant_team_positions/admin_index.html.php:29
 msgid "Title"
 msgstr ""
 
-#: views/vacant_team_positions/admin_form.html.php:60
+#: views/vacant_team_positions/admin_form.html.php:74
 #: views/vacant_team_positions/admin_index.html.php:30
 msgid "Department"
 msgstr ""
 
-#: views/vacant_team_positions/admin_form.html.php:64
+#: views/vacant_team_positions/admin_form.html.php:78
 #: views/vacant_team_positions/admin_index.html.php:31
 msgid "Location/s"
 msgstr ""
 
-#: views/vacant_team_positions/admin_form.html.php:68
+#: views/vacant_team_positions/admin_form.html.php:82
 msgid "Separate multiple locations with comma."
 msgstr ""
 
-#: views/vacant_team_positions/admin_form.html.php:77
-#: views/vacant_team_positions/admin_form.html.php:85
+#: views/vacant_team_positions/admin_form.html.php:91
+#: views/vacant_team_positions/admin_form.html.php:99
 msgid "Teaser"
 msgstr ""
 
-#: views/vacant_team_positions/admin_form.html.php:97
-#: views/vacant_team_positions/admin_form.html.php:105
+#: views/vacant_team_positions/admin_form.html.php:111
+#: views/vacant_team_positions/admin_form.html.php:119
 msgid "Content"
 msgstr ""
 
@@ -199,6 +211,6 @@ msgstr ""
 msgid "vacant team position"
 msgstr ""
 
-#: views/vacant_team_positions/admin_index.html.php:67
+#: views/vacant_team_positions/admin_index.html.php:74
 msgid "No vacant team positions added, yet."
 msgstr ""
